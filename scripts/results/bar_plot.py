@@ -29,8 +29,8 @@ for i, (slicer, S, T) in enumerate([
         (pd.IndexSlice[:, "en"], circle, "\\texttt{en}"),
         (pd.IndexSlice["en", :], "\\texttt{en}", circle),
     ]):
-    lower = mutual.loc[slicer, :]
-    upper = nll_mt.loc[slicer, :]
+    lower = xmi.loc[slicer, :]
+    upper = xent_mt.loc[slicer, :]
     t1 = tuple((v*(1-.3*i) for v in tab1))
     t2 = tuple((v*(1-.3*i) for v in tab2))
     ax.bar([x + width*i for x in range(len(LANGS))], lower.values[langs_indices, 0], width=width, label=f"$\\mathrm{{XMI}}({S}, {T})$", color=t1)
