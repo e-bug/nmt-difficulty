@@ -53,7 +53,7 @@ Third-party software and data sets are subject to their respective licenses. <br
 If you find our code/models or ideas useful in your research, please consider citing the paper:
 ```
 @inproceedings{bugliarello-etal-2020-measuring,
-  title={It’s {E}asier to {T}ranslate out of {E}nglish than into it: {M}easuring {N}eural {T}ranslation {D}ifficulty by {C}ross-{M}utual {I}nformation},
+  title={It’s Easier to Translate out of {E}nglish than into it: {M}easuring Neural Translation Difficulty by Cross-Mutual Information},
   author={Bugliarello, Emanuele and Mielke, Sabrina J. and Anastasopoulos, Antonios and Cotterell, Ryan and Okazaki, Naoaki},
   booktitle={Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
   month={jul},
