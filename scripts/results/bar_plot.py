@@ -33,7 +33,7 @@ for i, (slicer, S, T) in enumerate([
     upper = xent_mt.loc[slicer, :]
     t1 = tuple((v*(1-.3*i) for v in tab1))
     t2 = tuple((v*(1-.3*i) for v in tab2))
-    ax.bar([x + width*i for x in range(len(LANGS))], lower.values[langs_indices, 0], width=width, label=f"$\\mathrm{{XMI}}({S}, {T})$", color=t1)
+    ax.bar([x + width*i for x in range(len(LANGS))], lower.values[langs_indices, 0], width=width, label=f"$\\mathrm{{XMI}}({S} \\to {T})$", color=t1)
     ax.bar([x + width*i for x in range(len(LANGS))], upper.values[langs_indices, 0], width=width, label=f"$\\mathrm{{H}}_{{q_{{\\mathrm{{MT}}}}}}({T} \mid {S})$", color=t2, bottom=lower.values[langs_indices, 0])
     for x, (lo, hi) in enumerate(zip(lower.values[langs_indices, 0], upper.values[langs_indices, 0])):
         ax.text(x + .03 + width*i, lo      - 5, f"\\bf {lo:.1f}", ha="center", va="top", color="white", rotation=90)
