@@ -1,6 +1,6 @@
 # Measuring Neural Translation Difficulty by Cross-Mutual Information
 This is the implementation of the approaches described in the paper:
-> Emanuele Bugliarello, Sabrina J. Mielke, Antonios Anastasopoulos, Ryan Cotterell and Naoaki Okazaki. It’s Easier to Translate *out of* English than *into* it: Measuring Neural Translation Difficulty by Cross-Mutual Information. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, July 2020.
+> Emanuele Bugliarello, Sabrina J. Mielke, Antonios Anastasopoulos, Ryan Cotterell and Naoaki Okazaki. [It’s Easier to Translate *out of* English than *into* it: Measuring Neural Translation Difficulty by Cross-Mutual Information](https://arxiv.org/abs/2005.02354). In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, July 2020.
 
 ## Requirements
 You can clone this repository with submodules included issuing: `git clone --recurse-submodules git@github.com:e-bug/nmt-difficulty`
